@@ -1,0 +1,17 @@
+    <div class="modal-dialog">
+    <div class="modal-content">
+        {% if ComponentModal.hasHeader() %}
+            <div class="modal-header">
+                <h5 class="modal-title">{{ ComponentModal.getTitle() }}</h5>
+
+                {% if ComponentModal.isClosable() %}
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                {% endif %}
+            </div>
+        {% endif %}
+
+        <div class="modal-body">
+            <!--COMPONENT-->
+        </div>
+    </div>
+</div>

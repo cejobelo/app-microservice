@@ -1,0 +1,26 @@
+{
+    "name": "hamtaraws/app",
+    "description": "Hamtaraw microservice for web applications",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["hamtaraw", "framework", "microservice"],
+
+    "autoload": {
+        "psr-4": {
+            "Hamtaraws\\App\\": "src/"
+        }
+    },
+
+    "require": {
+        "hamtaraw/core": "dev-main"
+    },
+
+    "authors": [
+        {
+            "name": "Phil'dy Jocelyn Belcou",
+            "email": "pj.belcou@gmail.com",
+            "homepage": "https://github.com/cejobelo",
+            "role": "Developer"
+        }
+    ]
+}
