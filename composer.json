@@ -1,13 +1,13 @@
 {
-    "name": "hamtaraws/app",
-    "description": "Hamtaraw microservice for web applications",
+    "name": "hamtaraw/app-microservice",
+    "description": "Hamtaraw's microservice for web applications",
     "type": "library",
     "license": "MIT",
     "keywords": ["hamtaraw", "framework", "microservice"],
 
     "autoload": {
         "psr-4": {
-            "Hamtaraws\\App\\": "src/"
+            "Hamtaraw\\Microservice\\App\\": "src/"
         }
     },
 

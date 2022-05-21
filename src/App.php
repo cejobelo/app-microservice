@@ -1,9 +1,9 @@
 <?php
-namespace Hamtaraws\App;
+namespace Hamtaraw\Microservice\App;
 
 use Hamtaraw\AbstractMicroservice;
-use Hamtaraws\App\Contributor\PhildyJocelynBelcou;
-use Hamtaraws\App\Middleware\Router;
+use Hamtaraw\Microservice\App\Contributor\PhildyJocelynBelcou;
+use Hamtaraw\Microservice\App\Middleware\Router;
 
 /**
  * Microservice definition.

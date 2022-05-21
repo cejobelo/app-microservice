@@ -1,5 +1,5 @@
 <?php
-namespace Hamtaraws\App\Contributor;
+namespace Hamtaraw\Microservice\App\Contributor;
 
 use Hamtaraw\Contributor\AbstractContributor;
 
